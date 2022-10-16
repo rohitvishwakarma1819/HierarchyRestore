@@ -23,7 +23,7 @@ namespace HierarchyRestorePlugin
 
             if (GUILayout.Button("Go to Repository", GUI.skin.button))
             {
-                Application.OpenURL("link to repo");
+                Application.OpenURL("https://github.com/rohitvishwakarma1819/HierarchyRestore");
             }
             Texture coffeeBtnTexture = (Texture)AssetDatabase.LoadAssetAtPath("Assets/HierarchyRestore/Editor/Sprites/buy-me-coffee.jpeg", typeof(Texture));
              EditorGUILayout.Space(5);
