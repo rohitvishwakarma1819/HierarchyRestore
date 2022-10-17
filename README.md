@@ -10,15 +10,37 @@ Download the latest `HierarchyRestorer.unitypackage ` files from [releases](http
 
 Example
 
-- Normal Unity behaviour . . . . . . . . . . . . . . . . . . . . . . . . . vs . . . . . . . . . . . . . . . . . . . . . . After Using Hierarchy Restore
+- Normal Unity behaviour &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After Using Hierarchy Restore
 
 <br>
 
-<img src = "./before.png" width="400" height="300"> <img src = "./after.png" width="400" height="300">
+<img src = "./before.png" width="400" height="300"><img src = "./after.png" width="400" height="300">
+
+## Enable/Disable Hierarchy Restore
+
+<br>
+
+- # Steps
+
+1. After installing, go to `Window` -> `Hierarchy Restore`
+   (A new window will appear as shown in the screenshot)
+
+2. You can find an option saying `Restore Hierarchy`
+
+- If true plugin would work and vice-versa.
+
+> **Note:** Changing this option require unity to reload to make it work.
+
+<br>
+   <img src = "./open-hierarchy-window.png">
+
+<br>
 
 # Suggesting Improvements
 
 To file bugs, make feature requests, or to suggest other improvements, please use [github's issue tracker](https://github.com/rohitvishwakarma1819/HierarchyRestore/issues)
+
+<br>
 
 # Want to support my work
 
