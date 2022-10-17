@@ -4,31 +4,36 @@ using UnityEngine;
 using UnityEditor;
 namespace HierarchyRestorePlugin
 {
-public class HierarchySettingsEdiitor : UnityEditor.Editor
-    {   
-        [MenuItem("Window/Hierarchy Restorer")]
-        public static void ShowWindow() {
+    public class HierarchySettingsEdiitor : UnityEditor.Editor
+    {
+        [MenuItem("Window/Hierarchy Restore")]
+        public static void ShowWindow()
+        {
             EditorWindow wnd = EditorWindow.GetWindow<HierarchyRestorerWindow>();
-            wnd.titleContent = new GUIContent("Hierarchy Restorer");
+            wnd.titleContent = new GUIContent("Hierarchy Restore");
         }
     }
 }
 
 namespace HierarchyRestorePlugin
 {
-public class HierarchyRestorerSettings {
-    public static bool restoreHierarchy {
-            get {
-                #if UNITY_EDITOR
+    public class HierarchyRestorerSettings
+    {
+        public static bool restoreHierarchy
+        {
+            get
+            {
+#if UNITY_EDITOR
                 return EditorPrefs.GetBool("RestoreHierarchy", true);
-                #else
+#else
                 return true;
-                #endif
+#endif
             }
-            set {
-                #if UNITY_EDITOR
+            set
+            {
+#if UNITY_EDITOR
                 EditorPrefs.SetBool("RestoreHierarchy", value);
-                #endif
+#endif
             }
         }
     }
